@@ -5,7 +5,8 @@
 - Utilização do flickty.js para criação do carrossel.
 - HTML/CSS/JS
 
-# LINKS
-- respositório : <a href="https://github.com/rebeccaaaaaaaaaaa/gameflix"> GAMEFLIX - REPO</a>
-- deploy : <a href="gameflix-rebecca.netlify.app"> GAMEFLIX - BY REBECCA </a>
+![Imagem gameflix](https://raw.githubusercontent.com/rebeccaaaaaaaaaaa/gameflix/main/img/thmb.PNG "Title")
 
+# LINKS
+
+[Deploy - GAMEFLIX](https://gameflix-rebecca.netlify.app/)
