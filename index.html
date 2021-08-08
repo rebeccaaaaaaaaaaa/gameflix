@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+      <!--responsividade-->
+      <link rel="stylesheet" href="style/responsive.css">
+
+
+    <title> GAMESFLIX - BY REBECCA</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">GAMEFLIX</h2>
+            <nav>
+                <div id="nav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#"> Inicial </a>
+                    <a href="#"> Categorias </a>
+                    <a href="#"> Destaques </a>
+                    <a href="#"> Sobre</a>
+                  </div>
+
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">GOD OF WAR</h3>
+                <p class="descricao">O novo jogo mostra que ele teve um filho, chamado Atreus. 
+                     Quando a mãe do menino morre, ambos devem cumprir a promessa de levar suas cinzas até o
+                     pico mais alto do reino nórdico, dando início à jornada do game.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                       VEJA O TRAILER
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <div class="carrossel-filmes">
+       
+
+        <!-- Flickity HTML init -->
+        <div class="carousel"
+           data-flickity='{ "lazyLoad": 2, "initialIndex": 2 , "wrapAround": true }'>
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/1.jpg" alt="tulip" />
+          </div>
+         
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/2.jpg" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/3.png" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/4.jpg" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/5.jpg" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/6.png" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/7.png" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/8.jpg" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/9.png" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/10.jpg" alt="tulip" />
+          </div>
+
+          <div class="carousel-cell">
+            <img class="carousel-cell-image"
+              data-flickity-lazyload="./img/11.jpg" alt="tulip" />
+          </div>
+        </div>
+        
+    </div>
+    
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./js/nav.js"></script>
+ 
+
+ 
+</body>
+</html>

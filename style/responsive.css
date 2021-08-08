@@ -1,0 +1,55 @@
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+     
+    }
+
+    .filme-principal .titulo {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header nav{
+        display: none;
+    }
+
+    .carousel-cell {
+        width: 100%;
+      }
+
+
+      .filme-principal {
+       
+        height: 30rem;
+
+    }
+
+    .flickity-page-dots {
+        display: block;
+        bottom: 20px;
+    }
+
+    .flickity-page-dots .dot {
+        background: #fff;
+
+    }
+
+    .carousel-cell {
+        margin-left: 23rem;
+    }
+}
+
+
